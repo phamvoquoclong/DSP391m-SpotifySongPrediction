@@ -14,7 +14,8 @@ This repository contains code and resources for predicting song popularity on Sp
 ## Preprocess
 - Generating a list with the genre names
 - Creating is_popular column with our cutoff point
-![alt text](RM_Images\top100.png)
+![image](https://github.com/user-attachments/assets/b0f8128d-03a6-4fa6-bb94-2becef10c5f4)
+
 ## Feature Engineering
 Transform categorical data
 Creating new features whose correlation score > 0.2 or < -0.2 based on the figure below
