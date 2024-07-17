@@ -1,4 +1,5 @@
 ## Introduction
+This repository contains code and resources for predicting song popularity on Spotify using machine learning models. The project focuses on analyzing various features of songs, such as acousticness, danceability, and energy, to predict their popularity ratings. We explore the effectiveness of different algorithms like Random Forest, XGBoost, and Logistic Regression to achieve accurate predictions. This project aims to demonstrate how machine learning techniques can be applied to understand and predict music trends on the Spotify platform.
 ## Preprocess
 ## EDA
 ## Feature Engineering
