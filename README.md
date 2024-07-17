@@ -2,6 +2,11 @@
 ## Preprocess
 ## EDA
 ## Feature Engineering
+Transform categorical data
+Creating new features whose correlation score > 0.2 or < -0.2 based on the figure below
+![image](https://github.com/user-attachments/assets/a4da15d1-8ba0-49dc-a5c5-d1cf6e35f9f5)
+
+
 ## Model 
 Evaluation on validation data
 | Model              | Recall     | Precision  | Accuracy  |
@@ -9,6 +14,8 @@ Evaluation on validation data
 | Random forest      | 61.23%     | 78.27%     | 93.64%    |
 | XGBoost            | 57.75%     | **82.06%**  | **93.76%** |
 | Logistic Regression| **85.44%** | 48.01%     | 87.82%    |
+
+Based on the results, the Logistic Regression model had the highest recall (85.44%), while the XGBoost model had the highest precision (82.06%) and the highest accuracy (93.76%).
 
 ## Interpret
 ![image](https://github.com/user-attachments/assets/132423f7-c6d1-4804-83eb-efcd2288bfbd)
